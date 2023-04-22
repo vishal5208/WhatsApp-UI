@@ -1,0 +1,39 @@
+.main-window {
+	position: fixed;
+	top: 71px;
+	bottom: 50px;
+	left: 390px;
+	right: 0;
+	background-image: url("/background-img/back1.png");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding: 20px;
+
+	margin: 0 auto;
+}
+
+.message-box {
+	display: inline-block;
+	max-width: 70%;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.message-box.received {
+	background-color: #fff;
+	margin-right: auto;
+	color: #333;
+}
+
+.message-box.sent {
+	background-color: #dcf8c6;
+	margin-left: auto;
+	color: #333;
+}

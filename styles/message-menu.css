@@ -1,0 +1,77 @@
+.messages-menu-flex {
+	position: relative;
+	height: 65px;
+	width: 349px;
+	display: flex;
+	align-items: center;
+	background-color: rgb(254, 255, 254);
+	margin-top: -1px;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+.messages-menu-flex:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -32px;
+	width: 315px;
+	height: 1px;
+	background-color: rgb(233, 237, 239);
+}
+
+.messages-menu-flex img {
+	height: 44px;
+	width: 44px;
+	object-fit: cover;
+	border-radius: 20px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-right: 22px;
+}
+
+.messages-menu-flex .c2 {
+	flex: 1;
+	margin-right: 15px;
+}
+
+.messages-menu-flex .c2r1 {
+	display: flex;
+	justify-content: space-between;
+	width: 301px;
+	align-items: center;
+}
+
+.main-message-flex {
+	position: fixed;
+	top: 117px;
+	bottom: 0px;
+	display: flex;
+	width: 381px;
+
+	flex-direction: column;
+	border: 1px solid rgb(233, 237, 239);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.main-message-flex::-webkit-scrollbar-thumb {
+	background-color: white;
+}
+
+.main-message-flex .name {
+	font-size: 100%;
+	font-weight: 400;
+	line-height: 2px;
+	white-space: nowrap;
+	color: rgb(17, 27, 33);
+	margin-bottom: 8px;
+}
+
+.main-message-flex .msg-text,
+.main-message-flex .time {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(132, 147, 155);
+	padding-right: 10px;
+}

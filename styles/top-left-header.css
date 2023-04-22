@@ -1,0 +1,35 @@
+.top-left-header-flex {
+	position: fixed;
+	height: 43px;
+	width: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 16px;
+	z-index: 1000;
+	background-color: rgb(240, 242, 245);
+	top: 9px;
+}
+
+.right-icon-flex {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 240px;
+	height: 20px;
+}
+
+.top-left-header-flex img {
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 20px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.right-icon-flex img {
+	height: 20px;
+	width: 20px;
+	padding: 2px 8px;
+}
